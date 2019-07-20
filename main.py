@@ -16,7 +16,8 @@ import os
 
 def main():          
     arglist = str(sys.argv[1]) 
-    print("test")       
+    print("test")   
+    testmmm
     testcaselist = arglist.split(",") 
     PlanId = str(testcaselist[0])
     TestCaseId = str(testcaselist[1])
