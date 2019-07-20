@@ -19,7 +19,7 @@ def main():
     print("test")   
     testmmm
     testcaselist = arglist.split(",") 
-    PlanId = str(testcaselist[0])
+    PlanId = str(testcaselist[0]):;
     TestCaseId = str(testcaselist[1])
     RunId = str(testcaselist[2])
     #ResultId = str(testcaselist[4])
